@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--左上角-->
+    <com.example.multiable.demo_ui_arcmenu.MyView.ArcMenu
+        android:id="@+id/id_arcmenu1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        custom:position="left_top"
+        custom:radius="200dp"
+        custom:time="300"
+        custom:is_order="true">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/add" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/add"
+            android:tag="Add1" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/add"
+            android:tag="Add2" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/add"
+            android:tag="Add3" />
+    </com.example.multiable.demo_ui_arcmenu.MyView.ArcMenu>
+    <!--右上角-->
+    <com.example.multiable.demo_ui_arcmenu.MyView.ArcMenu
+        android:id="@+id/id_arcmenu2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        custom:position="right_top"
+        custom:radius="200dp"
+        custom:time="300"
+        custom:is_order="false">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/add" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/add" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/add"
+            android:tag="Add1" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/add"
+            android:tag="Add2" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/add"
+            android:tag="Add3" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/add"
+            android:tag="Add4" />
+    </com.example.multiable.demo_ui_arcmenu.MyView.ArcMenu>
+    <!--左下角，通过java代码添加-->
+</RelativeLayout>
